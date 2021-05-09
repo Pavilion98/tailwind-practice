@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss src/css/app.css -o public/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavilion98/tailwind-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavilion98/tailwind-practice/issues"
+  },
+  "homepage": "https://github.com/Pavilion98/tailwind-practice#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.14",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  }
+}
