@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="app.css">
     <title> Teacher Register</title>
 </head>
-<body class="bg-gray-100 h-screen">
-    <div class="flex justify-between px-4 pt-2 pb-2 bg-white">
-        <svg width="35" height="35" viewBox="0 0 856 856" fill="none" xmlns="http://www.w3.org/2000/svg">
+<body class="bg-gray-200 h-screen">
+    <div class="flex justify-between px-4 py-1 bg-white">
+        <svg width="27" height="27" viewBox="0 0 856 856" fill="none" xmlns="http://www.w3.org/2000/svg">
             <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="350" width="266" height="320">
                 <path d="M0 350.345H265.433V669.617H0V350.345Z" fill="white"/>
             </mask>
@@ -31,11 +31,11 @@
                   fill="#6633FF"/>
         </svg>
 
-        <button class="text-white bg-purple-500 p-1.5 border rounded-md"> Login </button>
+        <button class="w-16 text-white bg-purple-500 p-1 border rounded-md"> Login </button>
     </div>
 
-    <div class="pt-6">
-        <svg class="m-auto" width="138" height="138" viewBox="0 0 856 856" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div class="pt-5">
+        <svg class="m-auto" width="100" height="100" viewBox="0 0 856 856" fill="none" xmlns="http://www.w3.org/2000/svg">
             <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="350" width="266" height="320">
                 <path d="M0 350.345H265.433V669.617H0V350.345Z" fill="white"/>
             </mask>
@@ -59,11 +59,37 @@
     </div>
 
     <div class="pt-4">
-        <div class="bg-white container w-85 h-60 mx-auto pt-3 ">
-            <h2 class="text-center"> Welcome! Sign up for a new teacher account.</h2>
+        <div class="bg-white container w-auto h-96 mx-auto pt-3">
+            <h1 class="text-center font-bold"> Welcome! Sign up for a new teacher account.</h1>
+            
+            <div class="flex flex-1">
+
+                <div class="ml-28 my-12">
+                    <form class=" space-y-1 leading-7">
+                        <label for="email">Email Address </label><br>
+                        <input class="border rounded-sm w-96" type="email" name="email" placeholder="Enter your email"><br>
+                        <label for="password">Password</label><br>
+                        <input class="border rounded-sm w-96" type="text" name="password" placeholder="Enter your password"><br>
+                        <label for="password">Confirm Password</label><br>
+                        <input class="border rounded-sm w-96" type="text" name="password" placeholder="Repeat your password"><br><br>
+                        <button class="ml-32 text-white bg-purple-500 p-1.5 border rounded-md"> Sign up </button>
+
+                    </form> 
+                </div>
+
+                <h1 class="text-center text-xl m-auto font-black">OR</h1>
+
+                <div class="m-auto flex flex-col space-y-10">
+                    <button class="flex justify-evenly text-white bg-blue-500 p-1 border-2 rounded-full w-80"><img src="https://img.icons8.com/plasticine/27/000000/google-logo.png"/>Continue with Google</button>
+                    <button class="flex justify-evenly text-blue-500 bg-white p-1 border-blue-300 border-2 rounded-full"><img src="https://img.icons8.com/color/27/000000/facebook-circled--v1.png"/>Continue with Facebook</button>
+                </div>
+        
+            </div>
+    
         </div>
     </div>
-    
+    <h3 class="text-black text-center pt-4">Already a teacher? Login to your account.</h3>
+        
 
 
 
